@@ -88,10 +88,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
+    // {
+    //   skillName: "swift",
+    //   fontAwesomeClassname: "fab fa-swift"
+    // },
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
@@ -187,16 +187,15 @@ const workExperiences = {
       ]
     },
     {
-      role: "Front-End Developer",
+      role: "SWE Intern",
       company: "Worldref.co",
       companylogo: require("./assets/images/worldreflogo.png"),
       date: "August 2025 – December 2025",
-      desc: "Worked as a Front-End Developer at Worldref.co, a platform that connects businesses with service providers worldwide.",
+      desc: "Worked as a Software Engineering Intern at Worldref.co, a platform that connects businesses with service providers worldwide.",
       descBullets: [
         "Developed and maintained the front-end of the web application using React.js.",
-        "Integrated RESTful APIs to fetch and display data dynamically.",
-        "Also worked on a few UI/UX improvements to enhance user experience.",
-        "Worked on a few RAG systems to improve the performance of the application. Implemented the evaluation metrics to measure the performance of the system."
+        "Worked on a few RAG systems to improve the performance of the application. Implemented the evaluation metrics to measure the performance of the system.",
+        "Integrated RESTful APIs to fetch and display data dynamically."
       ]
     },
     {
@@ -206,23 +205,36 @@ const workExperiences = {
       date: "Jan 2024 – April 2024",
       desc: "Worked as a Full Stack Developer Intern at Maker's Lab IIITH, to build a web application for Doctors.",
       descBullets: [
-        "Developed a web application that helps doctors view all the detials of the patients registered with them.",
+        "Developed a web application that helps doctors view all the details of the patients registered with them.",
         "Implemented a chat feature between Doctor and the EMT assistants sitting in the ambulance to help them provide better care to the patients.",
         "Used GraphQL as the backend query language and ReactJS at frontend."
       ]
     },
     {
-      role: "Frontend Developer Intern",
-      company: "Zency",
-      companylogo: require("./assets/images/icon.png"),
-      date: "September 2024 – November 2024",
-      desc: "Worked as a Frontend Developer Intern at Zency, a quick commerce startup for fashion products.",
+      role: "Full Stack Developer Intern",
+      company: "Sole-arium ",
+      companylogo: require("./assets/images/solearium.png"),
+      date: "Januray 2026 – April 2026",
+      desc: "Worked as a Full Stack Developer Intern at Sole-arium, a health-tech startup focused on correcting faulty gait patterns.",
       descBullets: [
-        "Developed and maintained the front-end of the web application using React.js.",
-        "Collaborated with the design team to implement responsive UI designs.",
-        "Created Seller onboarding and Seller Dashboard screens from scratch."
+        "Developed and maintained the the web applications from scratch.",
+        "Handled both frontend and backend development tasks.",
+        "Implemented RESTful APIs for seamless integration.",
+        "Technologies used include React.js, Node.js, Express.js, and PostgreSQL."
       ]
     }
+    // {
+    //   role: "Frontend Developer Intern",
+    //   company: "Zency",
+    //   companylogo: require("./assets/images/icon.png"),
+    //   date: "September 2024 – November 2024",
+    //   desc: "Worked as a Frontend Developer Intern at Zency, a quick commerce startup for fashion products.",
+    //   descBullets: [
+    //     "Developed and maintained the front-end of the web application using React.js.",
+    //     "Collaborated with the design team to implement responsive UI designs.",
+    //     "Created Seller onboarding and Seller Dashboard screens from scratch."
+    //   ]
+    // }
   ]
 };
 
@@ -350,7 +362,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
