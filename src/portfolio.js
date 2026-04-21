@@ -23,7 +23,7 @@ const greeting = {
   username: "Shivam Mittal",
   title: "Hi all, I'm Shivam",
   subTitle: emoji(
-    "A passionate Software Developer 🚀 with experience in building scalable web applications using JavaScript, React.js, Node.js, and modern frameworks. Proficient in AI/ML development, including working with Large Language Models (LLMs), training and fine-tuning neural networks, and designing AI-driven solutions. Strong understanding of RAG pipelines, transformers, diffusion models, and other core ML concepts."
+    "A passionate Software Developer 🚀 with experience in building scalable web applications using JavaScript, React.js, Node.js, and modern frameworks who is proficient in AI/ML development, including working with Large Language Models (LLMs), training and fine-tuning neural networks, and designing AI-driven solutions and possesses a strong understanding of RAG pipelines, transformers, diffusion models, and other core ML concepts."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1VEAb2QELHD_7hoD3Ha8KkHtthEykbI0w/view?usp=sharing", // Set to empty to hide the button
@@ -272,7 +272,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://testdms.worldref.co/"
+          url: "https://worldref.co/"
         }
       ]
     }
@@ -296,10 +296,10 @@ const achievementSection = {
       image: require("./assets/images/jeemainsLogo.png"),
       imageAlt: "JEE Mains Logo",
       footerLink: [
-        {
-          name: "Result Link",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        }
+        // {
+        //   name: "Result Link",
+        //   url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+        // }
         // {
         //   name: "Award Letter",
         //   url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
@@ -410,8 +410,9 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+91-7725961716",
+  email_address: "mittalshivam279@gmail.com", 
+  // display: true // Set false to hide this section, defaults to true
 };
 
 // Twitter Section
