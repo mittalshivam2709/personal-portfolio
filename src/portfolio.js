@@ -253,6 +253,18 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
+      image: require("./assets/images/solearium.png"),
+      projectName: "Sole-arium Technologies",
+      projectDesc: "Worked as a Full Stack Software Developer.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://sole-arium.com/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
       image: require("./assets/images/vlabslogo.png"),
       projectName: "Virtual Labs",
       projectDesc:
